@@ -58,6 +58,16 @@ textarea {
   background: var(--white);
 }
 
+.about,
+.split-section,
+.rental,
+.location,
+.booking,
+.contact,
+.final-cta {
+  scroll-margin-top: 120px;
+}
+
 /* Header */
 .site-header {
   position: fixed;
@@ -864,6 +874,16 @@ blockquote {
 
 /* Responsive */
 @media (max-width: 800px) {
+  .about,
+  .split-section,
+  .rental,
+  .location,
+  .booking,
+  .contact,
+  .final-cta {
+    scroll-margin-top: 100px;
+  }
+
   .container {
     width: min(100% - 32px, 560px);
   }
