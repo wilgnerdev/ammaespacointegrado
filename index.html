@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header" id="top">
+  <header class="site-header">
     <nav class="nav container" aria-label="Navegação principal">
       <a class="logo" href="#top" aria-label="AMMA início"><img src="assets/icons/amma-logo.png" alt="AMMA Espaço Integrado" /></a>
       <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="primary-navigation"><span></span><span></span><span></span></button>
@@ -27,7 +27,7 @@
   </header>
 
   <main>
-    <section class="hero section-paper">
+    <section class="hero section-paper" id="top">
       <div class="container hero-grid">
         <div class="hero-copy reveal">
           <h1>Aqui, você é <em>cuidado por inteiro</em></h1>
@@ -174,7 +174,7 @@
           <label>Nome<input name="name" type="text" placeholder="Seu nome" required></label>
           <label>E-mail<input name="email" type="email" placeholder="seu@email.com" required></label>
           <label>Mensagem<textarea name="message" rows="4" placeholder="Como podemos ajudar?" required></textarea></label>
-          <button class="button" type="submit">Enviar mensagem <span>↗</span></button>
+          <button class="button" type="submit">Enviar mensagem </button>
           <p class="form-feedback" role="status"></p>
         </form>
       </div>

@@ -42,7 +42,7 @@ textarea {
 }
 
 .container {
-  width: min(1100px, calc(100% - 80px));
+  width: min(1180px, calc(100% - 80px));
   margin: auto;
 }
 
@@ -1049,6 +1049,16 @@ blockquote {
   .contact-detail {
     font-size: 1rem;
     overflow-wrap: anywhere;
+  }
+}
+
+@media (min-width: 431px) and (max-width: 800px) {
+  .nav {
+    height: 100px;
+  }
+
+  .nav-links {
+    top: 100px;
   }
 }
 
